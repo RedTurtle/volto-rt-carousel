@@ -1,5 +1,13 @@
 
 
+## 1.0.0 (2025-02-20)
+
+
+### Bug Fixes
+
+* name ([2f8224b](https://github.com/RedTurtle/volto-rt-carousel/commit/2f8224bba1276b051fb6f3c99c07661b018849e4))
+* release-it ([6206ade](https://github.com/RedTurtle/volto-rt-carousel/commit/6206ade87a344e1c86d7852c3b113c08292f6480))
+
 ## [0.5.2](https://gitlab.com/redturtle/volto-addons/volto-rt-carousel/compare/v0.5.1...v0.5.2) (2024-12-18)
 
 
