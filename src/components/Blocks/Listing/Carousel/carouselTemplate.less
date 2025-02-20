@@ -1,0 +1,43 @@
+.block.listing {
+  &.carousel {
+    //hide default headline because setted from CarouselTemplate to enable left title
+    > .headline {
+      display: none;
+    }
+
+    .carousel-template-wrapper {
+      &.head-position-left {
+        display: flex;
+
+        .top {
+          flex: 1 0 30%;
+          padding-right: 2rem;
+        }
+
+        .rt-carousel-wrapper.ui.container {
+          width: 70% !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .block.listing {
+    &.carousel {
+      .carousel-template-wrapper {
+        &.head-position-left {
+          display: flex;
+          flex-direction: column;
+          .top {
+            padding-right: 0;
+          }
+
+          .rt-carousel-wrapper.ui.container {
+            width: 100% !important;
+          }
+        }
+      }
+    }
+  }
+}

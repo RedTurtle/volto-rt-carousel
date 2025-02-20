@@ -1,0 +1,26 @@
+.default-appearance {
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+  img {
+    width: 100%;
+    overflow: hidden;
+    height: var(--rt-carousel-height, 30rem);
+    margin: 0;
+  }
+
+  .text {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    background-color: white;
+    padding: 2rem 1rem;
+    p {
+      margin-bottom: 0;
+    }
+  }
+}

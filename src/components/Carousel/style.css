@@ -1,0 +1,99 @@
+:root {
+  --swiper-pagination-bullet-size: 15px;
+  --swiper-theme-color: #fff;
+  --swiper-bullet-color: #fff;
+  --swiper-navigation-color: #fff;
+  --swiper-navigation-shadow: #000;
+  --rt-carousel-height: 30rem;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+  z-index: unset;
+}
+.swiper-wrapper {
+  z-index: unset;
+}
+
+.swiper-slide {
+  /* Center slide text vertically */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-pagination-bullet {
+  border: 2px solid #000;
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  /*styles to improve accessibility*/
+  background-color: var(--swiper-bullet-color, #fff);
+  opacity: 0.65;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.swiper-pagination-bullet:focus,
+.swiper-pagination-bullet:focus-visible {
+  box-shadow: 0 0 0 4px #995c00 !important;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  text-shadow:
+    0 0 2px var(--swiper-navigation-shadow),
+    0 0 2px var(--swiper-navigation-shadow);
+}
+.rt-carousel-wrapper {
+  height: var(--rt-carousel-height, 30rem);
+}
+
+@media (max-width: 1200px) {
+  .rt-carousel-wrapper {
+    height: auto;
+  }
+}
+
+.rt-carousel-wrapper .play-pause-wrapper {
+  position: absolute;
+  z-index: 10;
+  top: var(--swiper-pagination-top, auto);
+  right: var(--swiper-navigation-sides-offset, 10px);
+  bottom: var(--swiper-pagination-bottom, 8px);
+  height: 2.5rem;
+  color: #000;
+}
+.rt-carousel-wrapper .play-pause-wrapper button {
+  width: 25px;
+  height: 25px;
+  border: none;
+  border: 2px solid #000;
+  border-radius: 100%;
+  background: transparent;
+  background-color: #fff;
+  cursor: pointer;
+  line-height: 15px;
+}
+.rt-carousel-wrapper .play-pause-wrapper svg {
+  width: 10px;
+  height: 10px;
+}
+
+.rt-carousel-wrapper.full-width .swiper-button-prev {
+  left: 2rem;
+}
+.rt-carousel-wrapper.full-width .swiper-button-next {
+  right: 2rem;
+}
+.rt-carousel-wrapper.full-width .play-pause-wrapper {
+  right: 2rem;
+}

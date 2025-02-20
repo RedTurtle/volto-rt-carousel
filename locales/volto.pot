@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plone\n"
+"POT-Creation-Date: 2024-05-24T12:51:17.296Z\n"
+"Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
+"Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8\n"
+"Domain: volto\n"
+
+#. Default: "Carosello"
+#: components/Carousel/Carousel
+msgid "Carousel"
+msgstr ""
+
+#. Default: "Metti in pausa"
+#: components/Carousel/Carousel
+msgid "Carousel pause"
+msgstr ""
+
+#. Default: "Seleziona per riprodurre"
+#: components/Carousel/Carousel
+msgid "Carousel play"
+msgstr ""
+
+#. Default: "Vai alla slide {index}"
+#: components/Carousel/Carousel
+msgid "Go to slide {{index}}"
+msgstr ""
+
+#. Default: "Prossima slide"
+#: components/Carousel/Carousel
+msgid "Next slide"
+msgstr ""
+
+#. Default: "Slide precedente"
+#: components/Carousel/Carousel
+msgid "Previous slide"
+msgstr ""
+
+#. Default: "Questa è la prima slide del carosello"
+#: components/Carousel/Carousel
+msgid "This is the first slide"
+msgstr ""
+
+#. Default: "Questa è l'ultima slide del carosello"
+#: components/Carousel/Carousel
+msgid "This is the last slide"
+msgstr ""
+
+#. Default: "Autoplay"
+#: index
+msgid "autoplay"
+msgstr ""
+
+#. Default: "NOTA: Per questioni di accessibilità, è sconsigliato impostare l'autoplay attivo di default per un carosello."
+#: index
+msgid "autoplay_description"
+msgstr ""
+
+#. Default: "Velocità autoplay"
+#: index
+msgid "autoplay_speed"
+msgstr ""
+
+#. Default: "La velocità dell'autoplay deve essere espressa in secondi"
+#: index
+msgid "autoplay_speed_description"
+msgstr ""
+
+#. Default: "Posizione dell'intestazione"
+#: index
+msgid "carousel_head_position"
+msgstr ""
+
+#. Default: "A sinistra"
+#: index
+msgid "carousel_head_position_left"
+msgstr ""
+
+#. Default: "Sopra"
+#: index
+msgid "carousel_head_position_top"
+msgstr ""
+
+#. Default: "Etichetta per il link al dettaglio dell'elemento"
+#: index
+msgid "carousel_item_detail_label"
+msgstr ""
+
+#. Default: "Vedi"
+#: index
+msgid "carousel_item_detail_label_default"
+msgstr ""
+
+#. Default: "Mostra i puntini di scorrimento"
+#: index
+msgid "display_dots"
+msgstr ""
+
+#. Default: "A tutta larghezza"
+#: index
+msgid "full_width"
+msgstr ""
+
+#. Default: "Aspetto della slide"
+#: index
+msgid "slide_appearance"
+msgstr ""
+
+#. Default: "N° di slide da mostrare"
+#: index
+msgid "slides_to_show"
+msgstr ""
