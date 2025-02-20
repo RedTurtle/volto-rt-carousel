@@ -20,7 +20,7 @@ config.settings['volto-rt-carousel'] = {
 ## Reusable Carousel component:
 
 ```jsx
-import { Carousel, CarouselSlide } from '@redturtle/volto-rt-carousel';
+import { Carousel, CarouselSlide } from 'volto-rt-carousel';
 
 <Carousel
   items={items}

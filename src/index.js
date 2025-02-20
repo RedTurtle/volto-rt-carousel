@@ -5,13 +5,13 @@ import {
   DefaultSlideAppearance,
   BottomCarouselSlot,
   TopCarouselSlot,
-} from '@redturtle/volto-rt-carousel/components';
+} from 'volto-rt-carousel/components';
 
 export {
   Carousel,
   CarouselSlide,
   DefaultSlideAppearance,
-} from '@redturtle/volto-rt-carousel/components';
+} from 'volto-rt-carousel/components';
 
 const messages = defineMessages({
   full_width: {

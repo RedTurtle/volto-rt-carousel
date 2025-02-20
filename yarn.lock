@@ -2105,9 +2105,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redturtle/volto-rt-carousel@workspace:.":
+"volto-rt-carousel@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@redturtle/volto-rt-carousel@workspace:."
+  resolution: "volto-rt-carousel@workspace:."
   dependencies:
     "@babel/eslint-parser": 7.22.15
     "@plone/scripts": ^3.3.2

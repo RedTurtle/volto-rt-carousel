@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Carousel } from '@redturtle/volto-rt-carousel';
+import { Carousel } from 'volto-rt-carousel';
 import config from '@plone/volto/registry';
 import './carouselTemplate.less';
 

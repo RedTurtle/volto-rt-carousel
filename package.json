@@ -1,5 +1,5 @@
 {
-  "name": "@redturtle/volto-rt-carousel",
+  "name": "volto-rt-carousel",
   "version": "0.5.2",
   "description": "volto-rt-carousel: Volto add-on",
   "main": "src/index.js",
